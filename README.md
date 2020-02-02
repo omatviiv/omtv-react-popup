@@ -1,17 +1,16 @@
-Component description.
+Bare react popup.
 Supports [theming](https://github.com/omatviiv/omtv-template-react-component#component-theming-approach).
 
-Check component [demo](http://link.to.your/component-demo).
+Check component [demo](http://matviiv.com/omtv-react-component).
 
 # Install
 ```
-npm i your-component-name
+npm i omtv-react-component
 ```
 
 # Use
-Show how to use your component
 ```
-<MyComponent data={[...]}>Children</MyComponent>
+<Popup>Popup content</Popup>
 ```
 
 Component is not bundled or compiled, It is provided in raw form as is
@@ -27,7 +26,7 @@ module.exports = {
         test: /\.js$/,
         include: [
           path.resolve(__dirname, 'src'),
-          path.resolve(__dirname, 'node_modules/my-component'),
+          path.resolve(__dirname, 'node_modules/omtv-react-component'),
         ],
         use: {
           loader: 'babel-loader',
