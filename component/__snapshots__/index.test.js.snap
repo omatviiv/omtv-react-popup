@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component renders with value 1`] = `
+<styled.div>
+  Component with value '
+  test
+  ' and
+  <styled.strong>
+     subwrapper
+  </styled.strong>
+</styled.div>
+`;
+
+exports[`Component theme Main 1`] = `
+.c0 {
+  padding: 10px;
+  border: 1px solid green;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`Component theme Strong 1`] = `
+<strong
+  className=""
+/>
+`;

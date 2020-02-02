@@ -1,0 +1,4 @@
+node_modules
+dist
+*.sw?
+scripts/secret.js
