@@ -1,11 +1,11 @@
 Bare react popup.
 Supports [theming](https://github.com/omatviiv/omtv-template-react-component#component-theming-approach).
 
-Check component [demo](http://matviiv.com/omtv-react-component).
+Check component [demo](http://matviiv.com/omtv-react-popup).
 
 # Install
 ```
-npm i omtv-react-component
+npm i omtv-react-popup
 ```
 
 # Use
@@ -26,7 +26,7 @@ module.exports = {
         test: /\.js$/,
         include: [
           path.resolve(__dirname, 'src'),
-          path.resolve(__dirname, 'node_modules/omtv-react-component'),
+          path.resolve(__dirname, 'node_modules/omtv-react-popup'),
         ],
         use: {
           loader: 'babel-loader',
