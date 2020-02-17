@@ -10,7 +10,27 @@ npm i omtv-react-popup
 
 # Use
 ```
-<Popup>Popup content</Popup>
+import React, { useState } from 'react';
+import Popup from 'omtv-react-popup';
+
+const App = () => {
+  const [{ popupVisible }, setPopupVisible] = useState({
+    popupVisible: false,
+  });
+
+  const openPopup = () => setPopupVisible({ popupVisible: true })
+  const closePopup = () => setPopupVisible({ popupVisible: false })
+
+  return (
+    <button onClick={ openPopup }>
+      show popup
+    </button>
+    <Popup visible={ popupVisible } onClose={ closePopup }>
+      Popup content...<br/><br/>
+      Click outside to close the popup.
+    </Popup>
+  );
+};
 ```
 
 Component is not bundled or compiled, It is provided in raw form as is

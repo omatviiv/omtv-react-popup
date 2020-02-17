@@ -1,26 +1,15 @@
 // @flow
-import React, { useState } from 'react';
+import React from 'react';
 import styled from 'styled-components';
+import { H1 } from 'omtv-theme';
 
-import Component from 'componnt';
+import Article0 from './article0';
 
-const App = () => {
-  const [{ popupVisible }, setPopupVisible] = useState({ popupVisible: false });
-
-  const openPopup = () => setPopupVisible({ popupVisible: true })
-  const closePopup = () => setPopupVisible({ popupVisible: false })
-
-  return (
-    <>
-      <button onClick={ openPopup }>
-        show popup
-      </button>
-      <Component visible={ popupVisible } onClose={ closePopup }>
-        Popup content...<br/><br/>
-        Click outside to close the popup.
-      </Component>
-    </>
-  );
-};
+const App = () => (
+  <>
+    <H1>omtv-react-popup</H1>
+    <Article0 />
+  </>
+);
 
 export default App;
