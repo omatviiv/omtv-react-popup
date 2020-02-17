@@ -15,9 +15,5 @@ describe('Component', () => {
       const wrapper = renderer.create(<thm.Main />).toJSON();
       expect(wrapper).toMatchSnapshot();
     });
-    it('Strong', () => {
-      const wrapper = renderer.create(<thm.Strong />).toJSON();
-      expect(wrapper).toMatchSnapshot();
-    });
   });
 });
