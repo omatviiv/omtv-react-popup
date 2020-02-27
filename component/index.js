@@ -14,7 +14,7 @@ type Props = {|
   theme?: {|
     Main: * => Node,
   |},
-  className?: string,
+  rest?: any,
 |}
 */
 export const thm = {
@@ -31,7 +31,7 @@ const Component = ({
   onClose,
   children,
   theme = thm,
-  className,
+  rest,
 }/*: Props*/) => {
   const node = useRef();
 
@@ -56,7 +56,7 @@ const Component = ({
   }, []);
 
   return (
-    <theme.Main ref={node} visible={visible} className={className}>
+    <theme.Main ref={node} visible={visible} {...rest}>
       {children}
     </theme.Main>
   );

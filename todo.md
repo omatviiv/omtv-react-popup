@@ -5,6 +5,8 @@
   https://github.com/spmjs/node-scp2/pull/123
 
 # 0.0.2 -
++ use rest instead className
+  since it will include all extra props like event handlers className etc.
 + add className to support extenging styles with styled components
 
 # 0.0.1 - initial component version
