@@ -35,17 +35,19 @@ const App = () => {
     popupVisible: false,
   });
 
-  const openPopup = () => setPopupVisible({ popupVisible: true })
-  const closePopup = () => setPopupVisible({ popupVisible: false })
+  const openPopup = () => setPopupVisible({ popupVisible: true });
+  const closePopup = () => setPopupVisible({ popupVisible: false });
 
   return (
-    <button onClick={ openPopup }>
-      show popup
-    </button>
-    <Popup visible={ popupVisible } onClose={ closePopup }>
-      Popup content...<br/><br/>
-      Click outside to close the popup.
-    </Popup>
+    <>
+      <button onClick={openPopup}>show popup</button>
+      <Popup visible={popupVisible} onClose={closePopup}>
+        Popup content...
+        <br />
+        <br />
+        Click outside to close the popup.
+      </Popup>
+    </>
   );
 };
       ` }</Code>
