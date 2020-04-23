@@ -1,4 +1,8 @@
-[//]: # (commit 'fix rest in args')
+[//]: # ()
+
+- make handleClickOutside in capturing phase
+- move default theme to theme.js
+- npm audit fix
 - scp2 lodash vulnerability (not critical because scp2 is only used for
   deploy script)
   https://github.com/spmjs/node-scp2/issues/116
