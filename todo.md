@@ -9,6 +9,7 @@
   https://github.com/spmjs/node-scp2/pull/123
 
 # 0.0.2 -
++ webpack to show only warnings and erros
 + fix rest in args
 + use rest instead className
   since it will include all extra props like event handlers className etc.

@@ -16,6 +16,7 @@ module.exports = {
       componnt: path.resolve(__dirname, 'component/'),
     },
   },
+  stats: 'errors-warnings',
   module: {
     rules: [
       {
