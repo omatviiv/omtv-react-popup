@@ -1,10 +1,11 @@
-[//]: # ()
+[//]: # (commit 'fix rest in args')
 - scp2 lodash vulnerability (not critical because scp2 is only used for
   deploy script)
   https://github.com/spmjs/node-scp2/issues/116
   https://github.com/spmjs/node-scp2/pull/123
 
 # 0.0.2 -
++ fix rest in args
 + use rest instead className
   since it will include all extra props like event handlers className etc.
 + add className to support extenging styles with styled components

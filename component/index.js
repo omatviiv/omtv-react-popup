@@ -31,7 +31,7 @@ const Component = ({
   onClose,
   children,
   theme = thm,
-  rest,
+  ...rest
 }/*: Props*/) => {
   const node = useRef();
 
