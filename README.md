@@ -5,13 +5,13 @@ Check component [demo](http://matviiv.com/omtv-react-popup).
 
 # Install
 ```
-npm i omtv-react-popup
+npm i ompy-popup
 ```
 
 # Use
 ```
 import React, { useState } from 'react';
-import Popup from 'omtv-react-popup';
+import Popup from 'ompy-popup';
 
 const App = () => {
   const [{ popupVisible }, setPopupVisible] = useState({
@@ -46,7 +46,7 @@ module.exports = {
         test: /\.js$/,
         include: [
           path.resolve(__dirname, 'src'),
-          path.resolve(__dirname, 'node_modules/omtv-react-popup'),
+          path.resolve(__dirname, 'node_modules/ompy-popup'),
         ],
         use: {
           loader: 'babel-loader',

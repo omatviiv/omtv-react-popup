@@ -50,12 +50,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/omatviiv/omtv-react-popup.git"
+    "url": "https://github.com/omatviiv/ompy-popup.git"
   },
   "bugs": {
-    "url": "https://github.com/omatviiv/omtv-react-popup.git/issues"
+    "url": "https://github.com/omatviiv/ompy-popup.git/issues"
   },
-  "homepage": "https://github.com/omatviiv/omtv-react-popup.git",
+  "homepage": "https://github.com/omatviiv/ompy-popup.git",
   "author": "Oleh Matviiv",
   "license": "ISC"
 }
