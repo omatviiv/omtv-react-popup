@@ -1,6 +1,5 @@
 [//]: # ()
 
-- move to @ompy
 - make handleClickOutside in capturing phase
 - move default theme to theme.js
 - scp2 lodash vulnerability (not critical because scp2 is only used for
@@ -9,7 +8,8 @@
   https://github.com/spmjs/node-scp2/issues/116
   https://github.com/spmjs/node-scp2/pull/123
 
-# 0.0.2 -
+# 0.0.2 - fixes + move to @ompy
+- move to @ompy
 + npm audit fix
 + webpack to show only warnings and erros
 + fix rest in args
