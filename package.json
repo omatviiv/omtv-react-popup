@@ -1,5 +1,5 @@
 {
-  "name": "omtv-react-popup",
+  "name": "@ompy/react-popup",
   "version": "0.0.1",
   "description": "bare popup component",
   "main": "component/index.js",
@@ -31,7 +31,7 @@
     "flow-bin": "^0.108.0",
     "flow-webpack-plugin": "^1.2.0",
     "html-webpack-plugin": "^3.2.0",
-    "jest": "^24.9.0",
+    "jest": "^25.4.0",
     "jest-styled-components": "^6.3.3",
     "node": "^12.11.0",
     "normalize.css": "^8.0.1",
