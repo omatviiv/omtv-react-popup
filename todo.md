@@ -8,8 +8,8 @@
   https://github.com/spmjs/node-scp2/issues/116
   https://github.com/spmjs/node-scp2/pull/123
 
-# 0.0.2 - fixes + move to @ompy
-- move to @ompy
+# 0.0.2 - fixes + move to ompy
+- move to ompy-popup
 + npm audit fix
 + webpack to show only warnings and erros
 + fix rest in args

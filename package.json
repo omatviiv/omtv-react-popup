@@ -1,5 +1,5 @@
 {
-  "name": "@ompy/react-popup",
+  "name": "ompy-popup",
   "version": "0.0.2",
   "description": "bare popup component",
   "main": "component/index.js",
