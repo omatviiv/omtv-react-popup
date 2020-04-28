@@ -1,5 +1,6 @@
 [//]: # ()
 
+- update to ompy-theme
 - make handleClickOutside in capturing phase
 - move default theme to theme.js
 - scp2 lodash vulnerability (not critical because scp2 is only used for
